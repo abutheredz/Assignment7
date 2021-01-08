@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+}   
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.top{
+    width: 100%;
+    background-color: #0499D3;
+    padding: 5px 0; 
+}
+.topbar{
+   width: 85%;
+   margin: 0 auto;
+   overflow: hidden;
+  
+}
+.clear{
+  clear: both;
+}
+.email,.contact{
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   margin-right: 15px;
+   float: left;
+
+}
+.right{
+  float: right;
+}
+.right span{
+  margin: 7px;
+}
+.icon{
+  color: white;
+  font-size: 20px;
+}
+.row2{
+    width: 100%;
+    background-color: #0392CC;
+    padding: 8px 0;
+    opacity:0.8;
+    
+    
+  }
+  .container2{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .img1{
+    float: left;
+  }
+  .search{
+    float: right;
+    padding: 35px 0;
+  }
+  .searchbox{
+    width: 280px;
+    height: 40px;
+    border: 2px solid white;
+    padding: 8px 18px;
+    font-size: 16px;
+  }
+
+.row3{
+width:100%;
+background-color: #0392CC;
+
+}
+.menu{
+    width: 85%;
+    margin: 0 auto;
+    padding:8px 0;
+  
+    
+  }
+  
+  .nav{
+     list-style-type: none;
+    padding: 0;
+    margin: 0 ;
+    overflow: hidden;
+  }
+  .nav li{
+    float: left;
+  }
+  .nav li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:8px 30px;
+    text-align:center;
+  }
+  .row4{
+    display: flex;
+    margin-top: -4px;
+    
+    
+    }
+    .container4{
+    width: 25%;
+    }
+    .column{
+    padding: 8px ;
+    text-align: center;
+    
+    }
+    .column h2{
+    color: #0082b6;
+    font-size: 25px;
+    }
+    .column p{
+    font-size: 17px;
+    }
+    .row5{
+        width: 80%;
+        margin: 0 auto;     
+        padding-top: 30px; 
+        padding-bottom: 30px;      
+        }
+        .row5 h1{
+        background-color: #0392CC;
+        text-align: center;
+        color: white;
+        padding: 4px 0;
+        
+        }
+        .gallery{
+        display: flex;
+        margin-top: 10px; 
+        justify-content: space-between;
+        flex-flow: row wrap;
+        }
+        .border{
+        border: 1px solid grey;
+        }
+        .product{
+        width: 20%;
+    
+        }
+
+        .row6{
+            width:100%;
+            background-color: #F0F0F0;
+            padding-top: 25px;
+            padding-bottom: 35px;
+            
+            }
+            .container6{
+            width:100%;
+            margin: 0 auto;
+            }
+            .container6 h1{
+            background-color: #0392CC;
+            text-align: center;
+            padding: 4px 0;
+            color: white;
+            
+            
+            }
+            .col1{
+            width: 45%;
+            background-color: white;
+            
+            }
+            .column2{
+            margin-top: 35px;
+            display: flex;
+            
+            }
+            .box1{
+            background-color: #0392CC;
+            color: white;
+            padding:6px 15px;
+            font-size: 16px;
+            font-weight: bold;
+            }
+            .box2{
+            color:#0392CC;
+            padding:6px 15px;
+            font-size: 16px;
+            font-weight: bold;
+            }
+            .box1 p,.box2 p{
+              margin: 5px 0;
+            }
+
+            .column3{
+                width: 100%;
+                background-image: url("nurse-with-mask1.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+              
+              }
+              .col2{
+              padding-top:45px;
+              padding-left: 30px;
+              padding-bottom: 100px;
+              background-color: black;
+              background: rgba(0,0,0,0.8);
+              
+              }
+              
+              .col2 p{
+              color: white;
+              text-align:start;
+              margin-bottom: 35px;
+              font-size: 16px;
+              
+              }
+              .items{
+                color: white;
+              }
+
+              .row7{
+                background-image: url("1800ss_getty_rf_vacuuming.jpg");
+                height: 350px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                }
+                .container7{
+                background-color:blue;
+                background: rgba(34, 167, 240, 0.5);
+                height: 350px;
+                padding-top: 40px;                    
+                }
+                .container7 p{
+                font-size: 30px;
+                color: white;
+                margin: 30px 0;
+                font-weight: bold;
+                text-align: center;
+                }
+                .info1{
+                 display: flex;
+                 justify-content: center;
+                 flex-flow: row wrap;
+                 
+                }
+                .about,.demo{
+                width: 21%;
+                padding: 10px 16px;
+                background-color: white;
+                margin-left: 15px;
+                text-align: center;
+                
+                }
+                .about p,.demo p{
+                  font-size: 18px;
+                  color: #0392CC;
+                  margin:8px 0;
+                }
+                  .row8{
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    background-color: #F0F0F0;
+                    }
+                    .container8{
+                    width: 85%;
+                    margin:0 auto;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    }
+                    .footer{
+                    width: 21%;
+                    padding: 5px;
+                    color: #0392CC;
+                    padding: 10px;
+                    margin-right: 15px;
+                    }
+                    .footer h2{
+                    
+                    font-weight: bold;
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                    }
+                    .footer p{
+                    font-size: 16px;
+                    margin-bottom: 30px;
+                    
+                    }
+                    .listitem{
+                    list-style-type: none;
+                    padding: 5px;
+                    }
+                    .listitem li{
+                    margin: 5px 0;
+                    }
+                    .cards{
+                    width: 60px;
+                    height: 30px;
+                    }
+                  
+              
+
+
+
+  @media only screen and (max-width: 576px){
+    .img1,.search,.logoimg{
+      float: none;
+      text-align: center;
+    }
+    .topbar{
+      width: 100%;
+      padding: 0 10px;
+      
+    }
+    .contact{
+      display: none;
+    }
+    .email{
+      float: left;
+    }
+    .right{
+      float: right;
+    }
+    .nav li{
+  
+      float: none;
+    }
+      
+   .row4{
+     display: flex;
+     flex-wrap: wrap;
+   }
+   .container4{
+     width: 50%;
+   }
+   .column h2,.column p{
+    font-size: 12px;
+  }
+
+  .gallery{
+    display: flex;
+    flex-wrap: : wrap;
+   }
+
+   .product h3{ 
+    font-size: 10px;
+   }
+   .container6{
+    width: 90%;
+   }
+   .col1,.column3,.col2{
+    width: 100%;
+   }
+
+   .container8{
+    display: flex;
+    flex-wrap: wrap;
+   }
+.info h2,.info p{
+  font-size: 12px;
+}
+
+.about,.demo{
+  width: 40%;
+}
+.about p,.demo p{
+  font-size: 14px;
+}
+
+.footer{
+    width: 100%;
